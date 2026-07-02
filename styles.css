@@ -1,3 +1,37 @@
 body {
     margin: 0;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    padding: 24px;
+    width: 384px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-content .header-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content .user-profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.card-content .user-profile img {
+    width: 32px;
+    height: 32px;
+}
