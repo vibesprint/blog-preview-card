@@ -55,39 +55,36 @@ main {
     border-radius: 20px;
     background-color: white;
     box-shadow: 8px 8px 0px #000000;
-}
-
-.card-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.card-content .header-image {
+.header-image {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.card-content .user-profile {
+.user-profile {
     display: flex;
     gap: 12px;
     align-items: center;
 }
 
-.card-content .user-profile img {
+.user-profile img {
     width: 32px;
     height: 32px;
 }
 
-.card-content .tag {
+.tag {
     padding: 4px 12px;
     background-color: #F4D04E;
     border-radius: 4px;
     max-width: min-content;
 }
 
-.card-content .card-text-block {
+.card-text-block {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -101,15 +98,15 @@ main {
     color: #6B6B6B;
 }
 
-.card-content h1:hover {
+h1:hover {
     color: #F4D04E;
     cursor: pointer;
 }
 
-.card-content h1:focus {
+h1:focus {
     color: #F4D04E;
 }
 
-.card-content h1:active {
+h1:active {
     color: #F4D04E;
 }
